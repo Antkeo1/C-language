@@ -1,5 +1,6 @@
 C language intro
 
+Its a staticly typed language
 Its one of the oldest language still being used
 Its not object oriented
 
