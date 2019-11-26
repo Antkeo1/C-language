@@ -20,6 +20,15 @@ int main()
     scanf("%d", &radius); // when we want to change value of variable we need adress of operator (&) === (pointer)
 
     printf("You chose the value %d\n", radius);
+
+    // created a character array of 20 characters
+    // '\0' takes one spot and respresent end of a string, so we need to leave one spot
+    // in a 20 character array we can store 19 characters
+    printf("what is your name: ");
+    char name[20]; 
+    scanf("%19s", name);
+
+    printf("Your name: %s\n", name);
     return 0;
 }
 
